@@ -70,8 +70,10 @@
                 h4 {
                     font-size: 20px;
                     padding: 16px;  
-                    border-bottom: 1px solid black; 
-                    text-align: center;
+                    border-bottom: 1px solid white; 
+                    white-space: nowrap;
+                    width: 230px;
+                    font-weight: bold;
                 }
                 p {
                     font-size: 16px;
