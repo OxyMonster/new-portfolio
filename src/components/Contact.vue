@@ -4,8 +4,8 @@
             <div class="contact-content__title col-9">
                 <h4>04 : Contact me</h4>
             </div>
-            <div class="contact-content__main d-flex">
-                <div class="contact-content__main__left mt-5 col-md-6">
+            <div class="contact-content__main d-flex row">
+                <div class="contact-content__main__left mt-5 col-lg-6 ">
                     <form action="">
                         <div class="contact-content__main__left__email mt-2">
                             <input class="form-control" type="text" placeholder="Email">
@@ -20,9 +20,10 @@
                     </form>
                 </div>
 
-                <div class="contact-content__main__right mt-5 col-md-6">
+                <div class="contact-content__main__right mt-5 col-lg-6">
+                    <!-- <div class="col-md-6"> -->
                         <div class="col-5 contact-content__main__right__phone d-flex align-items-baseline justify-content-around">
-                            <div class="col-2">
+                            <div class="col-2 d-flex justify-content-center p-0">
                                 <i class="fas fa-phone"></i>
                             </div>
                             <div class="col-10">
@@ -30,7 +31,7 @@
                             </div>
                         </div>
                         <div class="col-5 contact-content__main__right__phone d-flex align-items-baseline justify-content-around">
-                            <div class="col-2">
+                            <div class="col-2 d-flex justify-content-center p-0">
                                 <i class="fas fa-envelope-square"></i>
                             </div>
                             <div class="col-10">
@@ -38,13 +39,14 @@
                             </div>
                         </div>
                         <div class="col-5 contact-content__main__right__phone d-flex align-items-baseline justify-content-around">
-                                <div class="col-2">
+                                <div class="col-2 d-flex justify-content-center p-0">
                                     <i class="fas fa-map-marker-alt"></i>
                                 </div>
                                 <div class="col-10">
                                     <p>Tbilisi, Georgia</p>
                                 </div>
                         </div>
+              
                         <div class="contact-content__main__right__social mt-3">
                             <div class="contact-content__main__right__social__title">
                                 <h4>Follow me on social networks</h4>
@@ -61,6 +63,8 @@
                                 </a>
                             </div>
                         </div>
+
+            
                 </div>
           
 
@@ -102,6 +106,18 @@ a {
                     i {
                         font-size: 22px;
                         cursor: pointer;
+                    }
+                }
+
+                &__social {
+                    &__title {
+                        h4 {
+                            border-bottom: 1px solid white;
+                            display: inline;
+                            padding: 16px;
+                            white-space: nowrap;
+                        }
+                        padding-bottom: 16px;
                     }
                 }
             }
