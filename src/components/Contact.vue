@@ -80,11 +80,21 @@
 </script>
 
 <style lang="scss" scoped>
+
 input,textarea {
     border-color: black;
 }
+
 a {
     color: black;
+}
+
+.form-control {
+    
+ @media (max-width:991px) {
+        width: 80%;
+    }
+
 }
 .contact {
     width: 100%;
