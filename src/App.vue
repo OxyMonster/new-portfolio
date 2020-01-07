@@ -90,7 +90,7 @@ html,body {
 }
 .navigation-menu-stars {
   height: 80px;
-  background: black;
+  background: black;  
   transition: .4s;
   z-index: 2;
   // background-image: url("./assets/images/back.jpg");
