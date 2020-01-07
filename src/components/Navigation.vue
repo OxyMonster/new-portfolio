@@ -8,22 +8,22 @@
                 <span class="icon-bar">3</span>
                 </button> -->
             <div class="navbar col-md-9 d-flex">
-                <div class="col-md-3" :class="{'dark-hover': $route.path === '/', 'light-hover': $route.path !== '/' }">
+                <div class="col-3" :class="{'dark-hover': $route.path === '/', 'light-hover': $route.path !== '/' }">
                     <a  href="./index.html" title="">
                         <router-link to="/">01 : Home</router-link>  
                     </a>
                 </div>
-                <div class="col-md-3" :class="{'dark-hover': $route.path === '/', 'light-hover': $route.path !== '/' }">
+                <div class="col-3" :class="{'dark-hover': $route.path === '/', 'light-hover': $route.path !== '/' }">
                     <a href="./index.html" title="">
                         <router-link to="/works">02 : Works</router-link>     
                     </a>
                 </div>
-                <div class="col-md-3" :class="{'dark-hover': $route.path === '/', 'light-hover': $route.path !== '/' }">
+                <div class="col-3" :class="{'dark-hover': $route.path === '/', 'light-hover': $route.path !== '/' }">
                     <a href="./index.html" title="">
                         <router-link to="/aboutMe">03 : About me</router-link>   
                     </a>
                 </div>
-                <div class="col-md-3" :class="{'dark-hover': $route.path === '/', 'light-hover': $route.path !== '/' }">
+                <div class="col-3" :class="{'dark-hover': $route.path === '/', 'light-hover': $route.path !== '/' }">
                     <a  href="./index.html" title="">
                         <router-link to="/contact">04 : Contact</router-link>  
                     </a>

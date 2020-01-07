@@ -54,6 +54,7 @@ html,body {
   height: 100%;
   font-family: 'Roboto Mono', monospace;
   background-image: radial-gradient( circle farthest-corner at -4% -12.9%,  rgba(74,98,110,1) 0.3%, rgba(30,33,48,1) 90.2% );
+  overflow-y: auto;
 
   *{
     color: white;
