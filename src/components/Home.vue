@@ -2,7 +2,7 @@
     <div class="home">
         <img src="../assets/images/cool.jpg" alt="">
         <div id="typed-strings">
-            <vue-typed-js :strings="['I am Giorgi Zeikidze', 'Self taughted', 'Front-End Developer', 'Working as Angular Developer']"
+            <vue-typed-js :strings="['I am Giorgi Zeikidze', 'Self taughted', 'Front-End  Developer', 'Working as Angular Developer']"
                           :loop="true"
                           :fadeOut="true"
                           >

@@ -7,7 +7,7 @@
             <div class="about-me__main d-flex justify-content-around">
                 <div class="about-me__main__left-content col-md-6 mt-4">
                     <div class="about-me__main__left-content__line-one">
-                        <h4>Who's this guy?</h4>
+                        <h4>Who's this guy ?</h4>
                         <p class="mt-4">Hi my name is Giorgi I'm self taught Front-End Developer, As a self-taught Front End Developer, 
                             I'm keen on getting out of my comfort zone as I love to challenge myself to improve my skills. 
                             Ever since I started coding I was connected with new technologies and industry trends, 
@@ -81,10 +81,7 @@
             }
         }
         &__right-content {
-            // &__right-content_img {
-                width: 30%;
-                height: 30%;
-              
+
                 img {
                     width: 100%;
                     height: 100%;
@@ -92,7 +89,6 @@
                     border-radius: .4rem;
 
                 }
-            // }
         }
     }
 
