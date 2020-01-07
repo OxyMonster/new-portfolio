@@ -41,7 +41,7 @@
 </script>
 
 <style lang="scss" scoped>
-@import url('~/assets/_variables.scss');
+// @import url('~/assets/_variables.scss');
 #navigation {
     height: 100%;
 }
