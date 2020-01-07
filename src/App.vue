@@ -79,6 +79,7 @@ html,body {
 
     transition: .4s;
   }
+
 }
 .container {
   margin:0 auto;
@@ -102,7 +103,13 @@ html,body {
   background-image: linear-gradient(to top, #d5d4d0 0%, #d5d4d0 1%, #eeeeec 31%, #efeeec 75%, #e9e9e7 100%);
   transition: .4s;
   z-index: 2;
-
+  
+  a {
+     &:hover {
+                color: white !important; 
+                transition: .4s;
+            }
+  }
 }
 
 
